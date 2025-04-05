@@ -219,7 +219,7 @@ button.white {
     width: 180px;
     padding: 10px 15px;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
-    border: 1px solid #800000;
+    border: 1px solid #ff9194;
     border-radius: 4px;
     margin: 15px 0;
 }
@@ -637,10 +637,8 @@ footer img {
 #about{
     display: flex;
     align-items: center;
-}
-
-#about img{
-    border-radius: 20px;
+    margin-top: 3.5rem;
+    margin-bottom: 5rem;
 }
 
 #about div{
@@ -649,12 +647,20 @@ footer img {
 
 #about div p{
     font-size: 1.25rem;
-    line-height: 1.5rem;
+    line-height: 1.75rem;
+    letter-spacing: 2px;
+    width: 75%;
 }
 
 #about img{
-    width: 50%;
+    width: 42%;
     height: auto;
+    border-radius: 5px;
+}
+
+#about h2{
+    font-size: 1.485rem;
+    letter-spacing: 8px;
 }
 
 /* Contact Page */
