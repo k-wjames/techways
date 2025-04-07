@@ -120,45 +120,7 @@ const accessories = [
 
 // Sample accessories data (Mock API response)
 
-const catalogue=products.concat(accessories)
-const catalogues = [
- new Product("Computers", "Lenovo Flex 5 Core i3 Touch", "Lenovo", "KES 72,000", "The Lenovo IdeaPad Flex 5 is a 2-in-1 convertible laptop designed to provide flexibility, performance, and convenience in one sleek package. Whether you're working, watching movies, or video conferencing, this laptop adapts to your needs with its versatile design and powerful features. Perfect for students, professionals, and home users, the IdeaPad Flex 5 combines a high-performance processor with a touchscreen display and a 360-degree hinge for maximum usability.",
-        "img/Lenovo-Flex-5-core-i3 1.webp", "img/Lenovo-Flex-5-core-i3 1.webp", "img/Lenovo-Flex-5-core-i3 2.webp", "img/Lenovo-Flex-5-core-i3 3.webp", "img/Lenovo-Flex-5-core-i3 1.webp"),
-
-    new Product("Computers", "Victus HP Gaming Laptop", "HP", "KES 145,000", "The HP Victus 15-FA1059DX i7 is a gaming laptop designed to balance powerful performance with accessibility. Targeted at gamers who demand high-quality gameplay and multitasking capabilities, this laptop delivers robust specs, a high-refresh-rate display, and cutting-edge connectivity, all wrapped in a sleek, portable design. Saruk praises this model for its competitive pricing and performance, making it a compelling option in the mid-range gaming laptop market. HP also highlights the Victus 15-FA1059DX's durability and the overall gaming experience it provides, focusing on its ability to handle modern titles with ease.",
-        "img/victus hp gaming laptop 1.webp", "img/victus hp gaming laptop 1.webp", "img/victus hp gaming laptop 2.webp", "img/victus hp gaming laptop 3.webp", "img/victus hp gaming laptop 4.webp"),
-
-    new Product("Computers", "Lenovo Ideapad Flex 5 i7", "Lenovo", "KES 45,000", "The Lenovo IdeaPad Flex 5 is a 2-in-1 convertible laptop designed to provide flexibility, performance, and convenience in one sleek package. Whether you're working, watching movies, or video conferencing, this laptop adapts to your needs with its versatile design and powerful features. Perfect for students, professionals, and home users, the IdeaPad Flex 5 combines a high-performance processor with a touchscreen display and a 360-degree hinge for maximum usability.",
-        "img/lenovo ideapad flex 5 core i7 1.webp", "img/lenovo ideapad flex 5 core i7 1.webp", "img/lenovo ideapad flex 5 core i7 2.webp", "img/lenovo ideapad flex 5 core i7 3.webp", "img/lenovo ideapad flex 5 core i7 4.webp"),
-
-    new Product("Computers", "HP 250 G10", "HP", "KES 70,000", "The HP Notebook 250 G10 is designed for business users looking for a reliable and efficient laptop. It features an Intel Core i7-1355U processor, 8GB of RAM, and a large 512GB SSD, providing ample storage space and smooth performance for multitasking. The 15.6-inch Full HD display ensures clear visuals for productivity tasks.",
-        "img/HP 250 G10 1.webp", "img/HP 250 G10 1.webp", "img/HP 250 G10 2.webp", "img/HP 250 G10 3.webp", "img/HP 250 G10 5.webp"),
-
-    new Product("Tablets", "Lenovo Tab P11", "Lenovo", "KES 52,000", "The Lenovo Tab P11 (2nd Gen) with Keyboard & Pen is the perfect bundle for those who demand both entertainment and productivity from their tablet. This powerful and versatile device seamlessly transitions from a captivating entertainment hub to a productive workhorse, making it ideal for students, professionals, and anyone who wants to do more on the go.",
-        "img/lenovo-tab-p11-plus-bundle 2.webp", "img/lenovo-tab-p11-plus-bundle 2.webp", "img/lenovo-tab-p11-plus-bundle 3.webp", "img/lenovo-tab-p11-plus-bundle 4.webp", "img/lenovo-tab-p11-plus-bundle 5.webp"),
-
-    new Product("Computers", "HP Dragonfly X360 i7", "HP", "KES 62,000", "The HP Elite Dragonfly is a beautifully designed, ultralight, 2 in 1 laptop that provides a stunning collaboration experience with AI-driven crystal-clear audio and a high definition display. Drive productivity with a powerful Intel® Core processor, a Wi-Fi 6 connection, strong security, and privacy features.",
-        "img/dragonfly core i7 x360 1.webp", "img/dragonfly core i7 x360 1.webp", "img/dragonfly core i7 x360 2.webp", "img/dragonfly core i7 x360 3.webp", "img/dragonfly core i7 x360 4.webp"),
-
-    new Product("Computers", "HP Elitebook 830 G6 i5", "HP", "KES 26,000", "The HP EliteBook 830 G6 with an Intel Core i5-8365U processor is a high-performance, business-class laptop designed for professionals who need reliability and efficiency. It features a 13.3-inch diagonal FHD IPS touchscreen display with a resolution of 1920 x 1080, offering clear and vibrant visuals. The laptop is equipped with 8 GB of DDR4-2400 SDRAM, providing smooth multitasking and responsive performance, and a 256 GB PCIe NVMe Value M.2 TLC SSD for fast storage and quick access to files. This model, available at Saruk, is a versatile and efficient choice for professionals who need reliable performance on the go.",
-        "img/elitebook 830 g6 1.webp", "img/elitebook 830 g6 1.webp", "img/elitebook 830 g6 2.webp", "img/elitebook 830 g6 3.webp", "img/elitebook 830 g6 1.webp"),
-
-    new Product("Computers", "HP Elitebook 830 G8 i7 11Th Gen", "HP", "KES 67,500", "The HP EliteBook 830 G8 with an Intel Core i5-8365U processor is a high-performance, business-class laptop designed for professionals who need reliability and efficiency. It features a 13.3-inch diagonal FHD IPS touchscreen display with a resolution of 1920 x 1080, offering clear and vibrant visuals. The laptop is equipped with 8 GB of DDR4-2400 SDRAM, providing smooth multitasking and responsive performance, and a 256 GB PCIe NVMe Value M.2 TLC SSD for fast storage and quick access to files. This model, available at Saruk, is a versatile and efficient choice for professionals who need reliable performance on the go.",
-        "img/elitebook 830 g8 11 1.webp", "img/elitebook 830 g8 11 1.webp", "img/elitebook 830 g8 11 2.webp", "img/elitebook 830 g8 11 3.webp", "img/elitebook 830 g8 11 4.webp"),
-
-    new Product("Computers", "HP Elitebook 1030 G3 X360 8Th Gen", "HP", "KES 43,000", "Express yourself in almost any light using the optional ultra-bright outdoor viewable display with anti-glare and ambient light sensors on the precision crafted Refurbished HP EliteBook x360 1030 G3 featuring four inspiring use modes with remarkable audio.",
-        "img/HP-EliteBook-x360-1030-G3 1.jpg", "img/elitebook 1030 g3 i7 1.webp", "img/elitebook 1030 g3 i7 2.webp", "img/elitebook 1030 g3 i7 3.webp", "img/elitebook 1030 g3 i7 4.webp"),
-
-    new Product("Computers", "HP Elitebook 840 G8 i7", "HP", "KES XX,000", "",
-        "img/elitebook 840 g8 1.jpg", "img/elitebook 840 g8 1.jpg", "img/elitebook 840 g8 2.jpg", "img/elitebook 840 g8 3.jpg", "img/elitebook 840 g8 1.jpg"),
-
-    new Product("Computers", "HP Elitebook 1030 G8 11Th Gen i7", "HP", "KES XX0,000", "",
-        "img/elitebook 840 g8 1.jpg", "img/elitebook 840 g8 1.jpg", "img/elitebook 840 g8 2.jpg", "img/elitebook 840 g8 3.jpg", "img/elitebook 840 g8 1.jpg"),
-
-    new Product("Printers", "Epson M3170 Monochrome", "Epson", "KES 50,000", "",
-        "img/elitebook 840 g8 1.jpg", "img/elitebook 840 g8 1.jpg", "img/elitebook 840 g8 2.jpg", "img/elitebook 840 g8 3.jpg", "img/elitebook 840 g8 1.jpg"),
-
-];
+const catalogue=products.concat(accessories);
 
 // Function to display products in the pro-container
 function displayProducts() {
