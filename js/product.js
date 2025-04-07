@@ -119,7 +119,9 @@ const accessories = [
 ];
 
 // Sample accessories data (Mock API response)
-const catalogue = [
+
+const catalogue=products.concat(accessories)
+const catalogues = [
  new Product("Computers", "Lenovo Flex 5 Core i3 Touch", "Lenovo", "KES 72,000", "The Lenovo IdeaPad Flex 5 is a 2-in-1 convertible laptop designed to provide flexibility, performance, and convenience in one sleek package. Whether you're working, watching movies, or video conferencing, this laptop adapts to your needs with its versatile design and powerful features. Perfect for students, professionals, and home users, the IdeaPad Flex 5 combines a high-performance processor with a touchscreen display and a 360-degree hinge for maximum usability.",
         "img/Lenovo-Flex-5-core-i3 1.webp", "img/Lenovo-Flex-5-core-i3 1.webp", "img/Lenovo-Flex-5-core-i3 2.webp", "img/Lenovo-Flex-5-core-i3 3.webp", "img/Lenovo-Flex-5-core-i3 1.webp"),
 
