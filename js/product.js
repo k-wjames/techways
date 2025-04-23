@@ -114,13 +114,13 @@ const accessories = [
     new Product("Computers", "HP Elitebook 1030 G8 11Th Gen i7", "HP", "KES 70,000", "HP EliteBook 1030 G7 x360 stands out as a premium 2-in-1 laptop designed for professionals seeking performance and flexibility. With its compact design and high-end specifications, it caters to users who require a powerful device for work and creativity.",
         "img/elitebook 840 g8 1.jpg", "img/elitebook 840 g8 1.jpg", "img/elitebook 840 g8 2.jpg", "img/elitebook 840 g8 3.jpg", "img/elitebook 840 g8 1.jpg"),
 
-    // new Product("Computers", "Dell 7280 i5 6Th Gen", "Dell", "KES 20,000", "Dell Latitude 7280 is equipped with an Intel Core i5-6200U processor, a mid-range dual-core CPU from Intel’s 6th generation. This processor offers decent performance for typical office tasks, web browsing, and light multitasking.",
-    //     "img/dell 7280 core i5 6th 1.png", "img/dell 7280 core i5 6th 1.png", "img/dell 7280 core i5 6th 2.png", "img/dell 7280 core i5 6th 3.png", "img/dell 7280 core i5 6th 1.png"),
+    new Product("Computers", "Dell 7280 i5 6Th Gen", "Dell", "KES 20,000", "Dell Latitude 7280 is equipped with an Intel Core i5-6200U processor, a mid-range dual-core CPU from Intel’s 6th generation. This processor offers decent performance for typical office tasks, web browsing, and light multitasking.",
+        "img/dell 7280 core i5 6th 1.png", "img/dell 7280 core i5 6th 1.png", "img/dell 7280 core i5 6th 2.png", "img/dell 7280 core i5 6th 3.png", "img/dell 7280 core i5 6th 1.png"),
 ];
 
 // Sample accessories data (Mock API response)
 
-const catalogue=products.concat(accessories);
+const catalogue=products.concat(",", accessories);
 
 // Function to display products in the pro-container
 function displayProducts() {
